@@ -111,6 +111,7 @@ postImages.forEach(function(postImage, index){
         setTimeout(function() {
             heartPopup.classList.remove("animate-heart");
         }, 1000);
+        event.preventDefault();
     });
 });
 //---------------------double tap to like functionality--------------------
